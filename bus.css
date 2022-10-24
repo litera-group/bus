@@ -1,0 +1,99 @@
+body {
+    margin: 150px 300px;
+}
+
+.bus {
+    height: 300px;
+    width: 800px;
+    border: 2px solid #000;
+    border-radius: 7px;
+    position: absolute;
+    background-color: yellow;
+}
+
+.bus_window1 {
+    height: 120px;
+    width: 160px;
+    border: 1px solid #000;
+    border-radius: 6px 0 0 0;
+    position: absolute;
+    background-color: aliceblue;
+}
+
+.bus_window2{
+    height: 120px;
+    width: 160px;
+    border: 1px solid #000;
+    position: absolute;
+    left: 160px ;
+    background-color: aliceblue;
+}
+
+.bus_window3{
+    height: 120px;
+    width: 160px;
+    border: 1px solid #000;
+    position: absolute;
+    left: 320px ;
+    background-color: aliceblue;
+}
+
+.bus_window4{
+    height: 120px;
+    width: 320px;
+    border: 1px solid #000;
+    border-radius: 0 7px 0 0;
+    position: absolute;
+    left: 480px;
+    background-color: aliceblue;
+}
+
+.bus_door {
+    height: 180px;
+    width: 120px;
+    border: 1px solid #000;
+    left: 480px;
+    top: 120px;
+    position: absolute;
+}
+
+.knob {
+    width: 10px;
+    height: 3px;
+    left: 560px;
+    top: 200px;
+    border: 2px solid #000;
+    background-color: #000;
+    position: absolute;
+}
+
+.bus_wheel1 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color: #000;
+    left: 80px;
+    top: 250px;
+    position: absolute;
+}
+
+.bus_wheel2 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color: #000;
+    left: 620px;
+    top: 250px;
+    position: absolute;
+
+}
+
+.text {
+    font-size: 50px;
+    color: #000;
+    left: 200px;
+    top: 110px;
+    position: absolute;
+}
